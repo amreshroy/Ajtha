@@ -4,8 +4,8 @@ Tags: page builder, editor, landing page, drag-and-drop, elementor,
 Requires at least: 6.3
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 3.25.10
-Beta tag: 3.25.0-beta3
+Stable tag: 3.25.11
+Beta tag: 3.26.0-beta3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -346,6 +346,14 @@ You can also add a new language via [translate.wordpress.org](https://go.element
 6. **Motion Effects** - Add entrance animations and transitions to any element in your website to captivate visitors.
 
 == Changelog ==
+
+= 3.25.11 - 2024-12-10 =
+
+* Tweak: Updated `eicons` library to v5.34.0
+* Security Fix: Improved code security enforcement in Image widget
+* Security Fix: Improved code security enforcement in Connect process
+* Security Fix: Improved code security enforcement in Progress bar widget
+* Fix: YouTube video in lightbox is not presented as expected in Video widget ([#29241](https://github.com/elementor/elementor/issues/29241))
 
 = 3.25.10 - 2024-11-24 =
 

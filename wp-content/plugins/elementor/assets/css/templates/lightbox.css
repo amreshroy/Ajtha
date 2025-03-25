@@ -72,7 +72,7 @@
   height: 100%;
   margin: auto;
 }
-@media (max-width: ELEMENTOR_SCREEN_MOBILE_MAX) {
+@media (max-width: 767px) {
   .elementor-lightbox .elementor-lightbox-item {
     padding: 70px 0;
   }
@@ -156,7 +156,7 @@
   height: 100%;
   max-width: 90vw;
 }
-@media (min-width: ELEMENTOR_SCREEN_TABLET_NEXT) {
+@media (min-width: 1025px) {
   .elementor-lightbox .elementor-video-container .elementor-video-landscape {
     width: 85vw;
     max-height: 85vh;
@@ -166,7 +166,7 @@
     max-width: 85vw;
   }
 }
-@media (max-width: ELEMENTOR_SCREEN_TABLET_MAX) {
+@media (max-width: 1024px) {
   .elementor-lightbox .elementor-video-container .elementor-video-landscape {
     width: 95vw;
     max-height: 95vh;
@@ -200,7 +200,7 @@
   justify-content: center;
   font-size: var(--lightbox-navigation-icons-size);
 }
-@media (max-width: ELEMENTOR_SCREEN_MOBILE_MAX) {
+@media (max-width: 767px) {
   .elementor-lightbox .elementor-swiper-button:focus {
     outline: none;
   }

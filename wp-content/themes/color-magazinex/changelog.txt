@@ -1,0 +1,21 @@
+== 1.0.4: 2024-06-06 ==
+- Fix: Dark mode widget styling issue fixed.
+- Imp: Some design improvement done.
+- Fix: Responsive design issue fixed.
+
+== 1.0.3: 2023-09-22 ==
+- Fix: Sticky header menu issue fixed.
+- Fix: Header center aligment issue fixed.
+- Imp: Header menu hover color tweaks done.
+
+== 1.0.2: 2023-08-28 ==
+- Fix: Keyboard navigation for menu in mobile devices fixed.
+- New: Underline in links added.
+
+== 1.0.1: 2023-08-22 ==
+- New: Block button spacing added.
+- Fix: Single post title color issue fix.
+- Fix: Focus issue fixed for top header.
+
+== 1.0.0: 2023-08-14 ==
+- New: First release.

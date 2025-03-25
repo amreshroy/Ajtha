@@ -1,0 +1,145 @@
+/*--------------------------------------------------------------
+			Dark Mode styles
+--------------------------------------------------------------*/
+body.mt-site-dark-mode,
+.mt-site-dark-mode #page,
+.mt-site-dark-mode .mt-logo-row-wrapper {
+	background: #010101;
+}
+
+.mt-site-dark-mode #site-navigation ul li .sub-menu,
+.mt-site-dark-mode #site-navigation ul li .children,
+.mt-site-dark-mode .is-sticky .mt-social-menu-wrapper {
+	background: #212121;
+}
+
+.mt-site-dark-mode #site-navigation ul li a,
+.mt-site-dark-mode .site-title a,
+.mt-site-dark-mode .entry-title a,
+.mt-site-dark-mode .cvmm-post-title a,
+.mt-site-dark-mode #secondary .widget .widget-title,
+.mt-site-dark-mode .mt-related-post-title,
+.mt-site-dark-mode #colophon .widget .widget-title,
+.mt-site-dark-mode .cvmm-block-title.layout--default,
+.mt-site-dark-mode .mt-follow-title,
+.mt-site-dark-mode .mt-social-icon-wrap li a,
+.mt-site-dark-mode .mt-search-icon a,
+.mt-site-dark-mode .mt-site-mode-wrap .mt-mode-toggle:checked,
+.mt-site-dark-mode .ticker-post-title a,
+.mt-site-dark-mode .error-num,
+.mt-site-dark-mode #mt-scrollup,
+.single.mt-site-dark-mode .mt-author-box .mt-author-info .mt-author-name a,
+.mt-site-dark-mode #respond,
+.mt-site-dark-mode #comments h3,
+.mt-site-dark-mode .mt-site-mode-wrap .mt-mode-toggle,
+.mt-site-dark-mode .mt-site-mode-wrap .mt-mode-toggle:checked,
+.mt-site-dark-mode h1,
+.mt-site-dark-mode h2,
+.mt-site-dark-mode h3,
+.mt-site-dark-mode h4,
+.mt-site-dark-mode h5,
+.mt-site-dark-mode h6{
+	color: #FFFFFF;
+}
+
+.mt-site-dark-mode .cvmm-post-meta,
+.mt-site-dark-mode .cvmm-post-meta a,
+.mt-site-dark-mode .entry-meta a,
+.mt-site-dark-mode .cvmm-read-more a,
+.mt-site-dark-mode .cvmm-timeline-title a,
+.mt-site-dark-mode .entry-footer .mt-readmore-btn,
+.mt-site-dark-mode .btn-wrapper a,
+.mt-site-dark-mode .mt-readmore-btn,
+.mt-site-dark-mode .posted-on a,
+.mt-site-dark-mode .byline a,
+.mt-site-dark-mode .page-header .page-title,
+.mt-site-dark-mode .mt-author-meta {
+	color: #bfbfbf;
+}
+
+.mt-site-dark-mode .cvmm-post-content,
+.mt-site-dark-mode .page-content,
+.mt-site-dark-mode .entry-content,
+.mt-site-dark-mode .entry-summary {
+	color: #d1d1d1;
+}
+
+.mt-site-dark-mode .posted-on a::before {
+	background: #FFFFFF;
+}
+
+.mt-site-dark-mode .entry-footer>span.tags-links {
+	color: #FFFFFF !important;
+}
+
+.mt-site-dark-mode .widget_archive a,
+.mt-site-dark-mode .widget_categories a,
+.mt-site-dark-mode .widget_recent_entries a,
+.mt-site-dark-mode .widget_meta a,
+.mt-site-dark-mode .widget_recent_comments li,
+.mt-site-dark-mode .widget_rss li,
+.mt-site-dark-mode .widget_pages li a,
+.mt-site-dark-mode .widget_nav_menu li a,
+.mt-site-dark-mode .wp-block-latest-posts li a,
+.mt-site-dark-mode .wp-block-archives li a,
+.mt-site-dark-mode .wp-block-categories li a,
+.mt-site-dark-mode .wp-block-page-list li a,
+.mt-site-dark-mode .wp-block-latest-comments li,
+.mt-site-dark-mode .widget_archive li,
+.mt-site-dark-mode .widget_categories li,
+.mt-site-dark-mode .widget_recent_entries li,
+.mt-site-dark-mode .widget_meta li,
+.mt-site-dark-mode .widget_recent_comments li,
+.mt-site-dark-mode .widget_rss li,
+.mt-site-dark-mode .widget_pages li,
+.mt-site-dark-mode .widget_nav_menu li,
+.mt-site-dark-mode .wp-block-latest-posts li,
+.mt-site-dark-mode .wp-block-archives li,
+.mt-site-dark-mode .wp-block-categories li,
+.mt-site-dark-mode .wp-block-page-list li,
+.mt-site-dark-mode .wp-block-latest-comments li,
+.mt-site-dark-mode .cvmm-cats-wrapper .cvmm-cat-title a{
+	color: #ffffff;
+}
+
+.mt-site-dark-mode .widget_archive a:hover,
+.mt-site-dark-mode .widget_categories a:hover,
+.mt-site-dark-mode .widget_recent_entries a:hover,
+.mt-site-dark-mode .widget_meta a,
+.mt-site-dark-mode .widget_recent_comments li:hover,
+.mt-site-dark-mode .widget_rss li,
+.mt-site-dark-mode .widget_pages li a:hover,
+.mt-site-dark-mode .widget_nav_menu li a:hover,
+.mt-site-dark-mode .wp-block-latest-posts li a:hover,
+.mt-site-dark-mode .wp-block-archives li a:hover,
+.mt-site-dark-mode .wp-block-categories li a:hover,
+.mt-site-dark-mode .wp-block-page-list li a:hover,
+.mt-site-dark-mode .wp-block-latest-comments li:hover,
+.mt-site-dark-mode #site-navigation ul li a:hover,
+.mt-site-dark-mode .site-title a:hover,
+.mt-site-dark-mode .entry-title a:hover,
+.mt-site-dark-mode .cvmm-post-title a:hover,
+.mt-site-dark-mode .mt-social-icon-wrap li a:hover,
+.mt-site-dark-mode .mt-search-icon a:hover,
+.mt-site-dark-mode .ticker-post-title a:hover,
+.single.mt-site-dark-mode .mt-author-box .mt-author-info .mt-author-name a:hover,
+.mt-site-dark-mode .mt-site-mode-wrap .mt-mode-toggle:hover,
+.mt-site-dark-mode .mt-site-mode-wrap .mt-mode-toggle:checked:hover{
+	color: #EC3535;
+}
+.mt-site-dark-mode .widget_archive a,
+.mt-site-dark-mode .widget_categories a,
+.mt-site-dark-mode .widget_recent_entries a,
+.mt-site-dark-mode .widget_meta a,
+.mt-site-dark-mode .widget_recent_comments li,
+.mt-site-dark-mode .widget_rss li,
+.mt-site-dark-mode .widget_pages li a,
+.mt-site-dark-mode .widget_nav_menu li a,
+.mt-site-dark-mode .wp-block-latest-posts li a,
+.mt-site-dark-mode .wp-block-archives li a,
+.mt-site-dark-mode .wp-block-categories li a,
+.mt-site-dark-mode .wp-block-page-list li a,
+.mt-site-dark-mode .wp-block-latest-comments li,
+.mt-site-dark-mode .mt-author-bio {
+  color: #cfcfcf;
+}
